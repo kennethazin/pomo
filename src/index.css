@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "JetBrainsMono-Regular";
+  src: url("./fonts/JetBrainsMono-Regular.woff2") format("woff2");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "JetBrainsMono-Light";
+  src: url("./fonts/JetBrainsMono-Light.woff2") format("woff2");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Neue Montreal";
+  src: url("./fonts/NeueMontreal-Regular.otf") format("opentype");
+}
+
+* {
+  font-family: "Neue Montreal", sans-serif;
+}
+
+.timer {
+  font-size: 4rem;
+  font-weight: 200;
+  letter-spacing: -0.03em;
+  font-family: "JetBrainsMono-Regular";
+  @apply outline-none;
+}
+
+input {
+  font-family: "JetBrainsMono-Light";
+  @apply text-sm font-medium;
+}
+
+.font-mono {
+  font-family: "JetBrainsMono-Light";
+}
